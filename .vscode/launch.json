@@ -1,0 +1,34 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-PhotosAppApplication<photosAppDiscoveryService>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "dev.ronniemoncayo.photoapp.discovery.photosApp.PhotosAppApplication",
+            "projectName": "photosAppDiscoveryService",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-PhotosAppApiUsersApplication<PhotosAppApiUsers>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "dev.ronniemoncayo.photoapp.api.users.PhotosAppApiUsers.PhotosAppApiUsersApplication",
+            "projectName": "PhotosAppApiUsers",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-PhotosAppApiAccountApplication<PhotosAppApiAccount>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "dev.ronniemoncayo.photoapp.api.account.PhotosAppApiAccountApplication",
+            "projectName": "PhotosAppApiAccount",
+            "args": ""
+        }
+    ]
+}
