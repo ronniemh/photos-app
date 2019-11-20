@@ -27,5 +27,4 @@ target/
 /.nb-gradle/
 build/
 
-### VS Code ###
-/photosAppDiscoveryService/.vscode/
+.vscode/
